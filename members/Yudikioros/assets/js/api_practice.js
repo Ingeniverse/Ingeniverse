@@ -4,7 +4,7 @@ async function getApiData() {
 
     // Create a loader approach
     let loading = document.createElement('img');
-    loading.src = '/members/Yudikioros/assets/images/loading.gif';
+    loading.src = 'assets/images/loading.gif';
     loading.setAttribute('class', 'loading');
     api_data.appendChild(loading);
 
